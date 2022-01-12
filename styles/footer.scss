@@ -1,0 +1,22 @@
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: $padding-m;
+    padding-bottom: $padding-m;
+    background-color: tan;
+
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    @media screen and (min-width: $breakpoint-m) {
+        flex-direction: row;
+    }
+    
+}

@@ -1,0 +1,32 @@
+.collections-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: $padding-m;
+    padding-bottom: $padding-m;
+    flex-direction: column;
+    background-color: rgb(120, 116, 207);
+
+    .collection-card{
+        justify-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        #collection-photo-1{
+            margin-bottom: 20px;
+        }
+
+        @media screen and (min-width: $breakpoint-xs) {
+            width: 80% 
+        }
+        @media screen and (min-width: $breakpoint-s) {
+            width: 50% 
+        }
+        @media screen and (min-width: $breakpoint-m) {
+            width: 40% 
+        }
+    }
+    .btn{
+        cursor:pointer;
+    }
+}

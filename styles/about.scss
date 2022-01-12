@@ -1,0 +1,13 @@
+.about-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: $padding-m;
+    padding-bottom: $padding-m;
+    background: radial-gradient(rgb(238,238,238) 8%,rgb(169,184,195) 100%);
+    .btn{
+        cursor:pointer;
+    }
+
+}

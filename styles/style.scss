@@ -1,0 +1,83 @@
+// style.scss
+@import 'variables.scss';
+@import 'about.scss';
+@import 'collections.scss';
+@import 'footer.scss';
+@import 'hero.scss';
+@import 'nav.scss';
+@import 'social.scss';
+
+html {
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: $heading-l;
+}
+p{  
+   font-size: $paragraph-m;
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+body{
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+h2{
+    font-size: $heading-m;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+li {
+    margin: 0 20px ;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+}
+.btn {
+    display: flex;
+    align-self: center; 
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid rgb(29, 27, 27);
+    padding-block: 15px ;
+    padding-inline: $padding-xs;
+    margin: auto;
+    transition: all .2s ease-in-out;
+    font-size: $font-m;
+    font-weight: 700;
+    text-align: center;
+
+    img{
+        margin-left: 5px;
+    }
+    
+    &:hover{
+        background-color: transparentize($color: #000000, $amount: 0.9);
+    }
+}
+
+.text-center{
+    text-align: center; 
+
+    @media screen and (min-width: $breakpoint-xs) {
+        padding-inline:10%;
+    } 
+    
+    @media screen and (min-width: $breakpoint-m) {
+        padding-inline:20%;
+    }
+
+    @media screen and (min-width: $breakpoint-l) {
+            padding-inline:30%;
+    }
+    
+}
+
+

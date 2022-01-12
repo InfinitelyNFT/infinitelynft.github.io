@@ -1,0 +1,16 @@
+.main-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #ebecee;
+    a{
+        font-size: $font-m;
+        font-weight: 450;
+        color: rgb(1, 4, 32);
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+        
+    }
+}
