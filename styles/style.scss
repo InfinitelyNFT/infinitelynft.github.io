@@ -48,16 +48,18 @@ a{
 .btn {
     display: flex;
     align-self: center; 
+    align-items: center;
     background-color: transparent;
     border-radius: 15px;
     border: 2px solid rgb(29, 27, 27);
-    padding-block: 15px ;
+    padding-block: 15px;
     padding-inline: $padding-xs;
     margin: auto;
     transition: all .2s ease-in-out;
-    font-size: $pa;
+    font-size: $paragraph-m;
     font-weight: 700;
     text-align: center;
+    color: black;
 
     img{
         margin-left: 5px;
