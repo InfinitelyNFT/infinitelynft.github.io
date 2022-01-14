@@ -13,46 +13,55 @@ html {
 h1{
     font-size: $heading-l;
 }
+h2{
+    font-size: $heading-m
+}
+h3{
+    font-size: $heading-s;
+}
 p{  
    font-size: $paragraph-m;
    margin-top: 0;
-   margin-bottom: 30px;
+   margin-bottom: 2rem;
+   margin-inline: 1.5rem;
+   text-align: center;
 }
 body{
     margin: 0;
     font-family: 'DM Sans', sans-serif;
 }
-h2{
-    font-size: $heading-m;
-}
+
 ul {
     display: flex;
     list-style-type: none;
-    margin: 20px;
+    margin: 1rem;
     padding: 0;
 }
 li {
-    margin: 0 20px ;
+    margin: 0 1rem ;
     display: flex;
     align-self: center;
     justify-content: flex-end;
 }
 a{
     text-decoration: none;
+    font-size:$paragraph-s;
 }
 .btn {
     display: flex;
-    align-self: center; 
+    align-self: center;
+    align-items: center;
     background-color: transparent;
-    border-radius: 15px;
+    border-radius: 1.25rem;
     border: 2px solid rgb(29, 27, 27);
-    padding-block: 15px ;
+    padding-block: 1.25rem ;
     padding-inline: $padding-xs;
     margin: auto;
     transition: all .2s ease-in-out;
-    font-size: $font-m;
+    font-size: $paragraph-s;
     font-weight: 700;
     text-align: center;
+    color: black;
 
     img{
         margin-left: 5px;

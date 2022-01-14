@@ -2,10 +2,11 @@
     position: sticky;
     top: 0;
     display: flex;
-    background-color: #ebecee;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba($color: black, $alpha: 0.3);
     a{
-        font-size: $font-m;
-        font-weight: 450;
+        font-size: 1.2rem;
+        font-weight: 560;
         color: rgb(1, 4, 32);
         text-decoration: none;
         &:hover{
