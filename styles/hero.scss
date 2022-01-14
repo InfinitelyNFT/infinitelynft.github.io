@@ -1,0 +1,53 @@
+.hero-wrapper{
+    height: 75vh;
+    display: flex;
+    padding-top: $padding-m;
+    padding-bottom: $padding-m;
+    p,h1{
+        color: white;   
+    }
+    background-image: url("../imgs/hero.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:hard-light;
+    @media screen and (max-width: $breakpoint-l) {
+       p{
+           background-color:  rgba($color: #000000, $alpha: 0.4);
+       }
+    }
+
+    .hero-content{
+        align-self: center;
+        margin-left: auto;
+        h1{
+            margin: auto;
+            text-align: center;
+            margin-bottom: 40px;
+           
+        }
+        p{
+            text-align: center;
+            text-shadow: 0 0 3px #000000;
+            @media screen and (min-width: $breakpoint-xs) {
+                margin-inline: 30px;
+            }
+            @media screen and (min-width: $breakpoint-s) {
+                margin-inline: 50px;
+            }
+            @media screen and (min-width: $breakpoint-m) {
+                margin-inline: 80px;
+            }
+        }
+        @media screen and (min-width: $breakpoint-xs) {
+            width: 100%
+             
+        }
+        @media screen and (min-width: $breakpoint-m) {
+            width:50%
+        }
+
+
+    }
+}
