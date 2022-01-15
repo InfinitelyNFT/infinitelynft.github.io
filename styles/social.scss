@@ -5,6 +5,7 @@
     padding-bottom: $padding-m;
     background-color: rgb(72, 149, 239);
     align-content: center;
+    justify-content: space-evenly;
     .divide{
         display: flex;
         flex-direction: column;
