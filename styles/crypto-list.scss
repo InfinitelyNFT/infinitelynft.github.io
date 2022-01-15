@@ -1,0 +1,15 @@
+.crypto-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(204, 204, 204);
+    p{
+        margin:0;
+        font-size: 1rem;
+        @media screen and (max-width: $breakpoint-s) {
+            font-size: 0.7rem;
+            text-align: center;
+            margin-inline: 0.5rem;
+        } 
+    }
+}

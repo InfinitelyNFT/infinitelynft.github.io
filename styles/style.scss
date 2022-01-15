@@ -6,6 +6,7 @@
 @import 'hero.scss';
 @import 'nav.scss';
 @import 'social.scss';
+@import 'crypto-list.scss';
 
 html {
     scroll-behavior: smooth;
@@ -84,5 +85,9 @@ a{
         padding-inline:20rem;
     }
     
+}
+.on-top{
+    position: sticky;
+    top: 0;
 }
 
