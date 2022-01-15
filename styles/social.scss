@@ -1,10 +1,17 @@
 .social-wrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding-top: $padding-m;
     padding-bottom: $padding-m;
     background-color: rgb(72, 149, 239);
-
+    align-content: center;
+    .divide{
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (max-width: $breakpoint-twitter) {
+        flex-direction: column;
+    }
     h2{
         text-align: center;
     }
@@ -21,6 +28,5 @@
                 transform: scale(1.1); 
             }
         }
-        
     }
 }

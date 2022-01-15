@@ -16,7 +16,6 @@ h1{
 p{  
    font-size: $paragraph-m;
    margin-top: 0;
-   margin-bottom: 1rem;
    margin-inline: 1.5rem;
 }
 body{
@@ -74,17 +73,16 @@ a{
     text-align: center; 
 
     @media screen and (min-width: $breakpoint-xs) {
-        padding-inline:10%;
+        padding-inline:2rem;
     } 
     
     @media screen and (min-width: $breakpoint-m) {
-        padding-inline:20%;
+        padding-inline:10rem;
     }
 
     @media screen and (min-width: $breakpoint-l) {
-            padding-inline:30%;
+        padding-inline:20rem;
     }
     
 }
-
 
